@@ -1,0 +1,1008 @@
+/* @charset "utf-8";
+@import url('https:https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https:https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https:https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https:https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap'); */
+
+/* CSS Document */
+
+body {
+	/*font-family: 'Roboto', sans-serif;*/
+	font-family: 'Lato', sans-serif;
+}
+
+.log-clr {
+	color: #2d1a10 !important;
+}
+
+.bg-white {
+	background: #fff !important;
+}
+
+.cl-org {
+	color: #fdb95c !important;
+}
+
+.navbar-absolute {
+
+	/*position: absolute !important;*/
+
+	position: fixed !important;
+
+	left: auto;
+
+	top: auto;
+
+	bottom: auto;
+
+	right: auto;
+
+	z-index: 3;
+
+}
+
+/*.navbar-lg {
+
+  padding-top: 1.5rem;
+
+  padding-bottom: 1.5rem;
+
+}*/
+a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+.bs {
+	box-shadow: 1px 1px 5px 1px #000;
+}
+
+/*ec9a2a*/
+
+.navbar {
+	font-weight: 700;
+	box-shadow: 5px 5px 8px 1px #ccc;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: #2d1a10;
+	/*border-bottom:1px solid; border-color:rgba(204,204,204,0.5); */
+	margin: auto 35px !important;
+	font-weight: 500 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: #a25c03;
+	/*background:#fde8cd; padding:5px 10px;*/
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+	background: #d76b22 !important;
+	color: #fff;
+	border-radius: 25px !important;
+	padding: 10px 25px;
+}
+
+.fl-rt {
+	float: right;
+}
+
+
+.home-bg {
+	/*background:url(/web/20230223130810im_/http://www.teawheeler.co.in/img/bg.png) no-repeat top; background-size:cover;top:90px;*/
+	height: 0px;
+}
+
+.position-relative {
+	position: relative !important;
+}
+
+.navbar-dark .navbar-toggler-icon {}
+
+.tcycle {
+	position: absolute;
+	top: 265px;
+	left: 0;
+}
+
+.tcycle-txt {
+	position: absolute;
+	top: 100px;
+	right: 135px;
+}
+
+.ttxtl {
+	position: absolute;
+	top: 550px;
+	left: 175px;
+}
+
+.tbig {
+	font-size: 120px;
+	font-weight: bold;
+	margin-top: -35px;
+}
+
+.tlight {
+	position: absolute;
+	/*top: 650px;*/
+	left: 0;
+	top: 0px;
+}
+
+.abt-bg {
+
+	background: #efdcd5;
+
+	background: -moz-linear-gradient(45deg, #efdcd5 0%, #fdfaf8 50%, #fcf7f5 100%);
+
+	background: -webkit-linear-gradient(45deg, #efdcd5 0%, #fdfaf8 50%, #fcf7f5 100%);
+
+	background: linear-gradient(45deg, #efdcd5 0%, #fdfaf8 50%, #fcf7f5 100%);
+
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#efdcd5', endColorstr='#fcf7f5', GradientType=1);
+
+	/*padding:150px auto !important; */
+
+}
+
+.ftop {
+	/*width:auto; height:295px; background:url(/web/20230223130810im_/http://www.teawheeler.co.in/img/footer-top.jpg) no-repeat*/
+	background: #fff;
+}
+
+.footer {
+
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d76b22+0,dc7d22+50,e59d23+100 */
+
+	background: #d76b22;
+	/* Old browsers */
+
+	background: -moz-linear-gradient(top, #d76b22 0%, #dc7d22 50%, #e59d23 100%);
+	/* FF3.6-15 */
+
+	background: -webkit-linear-gradient(top, #d76b22 0%, #dc7d22 50%, #e59d23 100%);
+	/* Chrome10-25,Safari5.1-6 */
+
+	background: linear-gradient(to bottom, #d76b22 0%, #dc7d22 50%, #e59d23 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d76b22', endColorstr='#e59d23', GradientType=0);
+	/* IE6-9 */
+
+	width: 100%;
+
+}
+
+.ptb-30 {
+	padding: 15px 0px !important;
+}
+
+.sicon {
+	color: #fbbf56;
+}
+
+.ord-ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	font-family: 14px;
+}
+
+.ord-ul li a {
+	color: #2d1a10;
+}
+
+.ft-12 {
+	font-size: 12px;
+}
+
+.ft-13 {
+	font-size: 13px;
+}
+
+.ft-14 {
+	font-size: 14px;
+}
+
+.ft-15 {
+	font-size: 15px;
+}
+
+.ft-16 {
+	font-size: 16px;
+}
+
+.ft-17 {
+	font-size: 17px;
+}
+
+.ft-18 {
+	font-size: 18px;
+}
+
+.ft-100 {
+	font-size: 100px;
+}
+
+.fmenu {
+	display: block;
+	line-height: 30px;
+	/*text-align:right;*/
+}
+
+/*.fmenu a:hover {color:#fff;}*/
+
+.fmenu li a {
+	color: #000;
+}
+
+.fmenu li a:hover {
+	color: #fbbf56;
+}
+
+.lh-30 {
+	line-height: 30px;
+}
+
+.lh-40 {
+	line-height: 40px;
+}
+
+.lh-50 {
+	line-height: 50px;
+}
+
+.ls-0 {
+	letter-spacing: 0px;
+}
+
+.ls-1 {
+	letter-spacing: 1px;
+}
+
+.mr-10 {
+	margin-right: 10px;
+}
+
+.mb-10 {
+	margin-bottom: 10px;
+}
+
+.prod-bg {
+
+	background: #f5eae5;
+	/* Old browsers */
+
+	background: -moz-linear-gradient(top, #f5eae5 0%, #fbf6f4 50%, #ffffff 100%);
+	/* FF3.6-15 */
+
+	background: -webkit-linear-gradient(top, #f5eae5 0%, #fbf6f4 50%, #ffffff 100%);
+	/* Chrome10-25,Safari5.1-6 */
+
+	background: linear-gradient(to bottom, #f5eae5 0%, #fbf6f4 50%, #ffffff 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5eae5', endColorstr='#ffffff', GradientType=0);
+	/* IE6-9 */
+
+}
+
+.mh-ft {
+	font-family: 'Playfair Display', serif;
+}
+
+.clr-brn {
+	color: #2d1a10;
+}
+
+.clr-lbrn {
+	color: #d76b22;
+}
+
+.clr-wht {
+	color: #fff;
+}
+
+.br-clr {
+	color: #fbbf56;
+}
+
+.dr-clr {
+	color: #d18d32;
+}
+
+.org-bg {
+	background: #ef994c;
+}
+
+.w250 {
+	width: 250px;
+}
+
+.center-bg {
+	width: 100%;
+	height: 800px;
+  background-image: url(../img/background-2.png);
+	background-size: cover;
+  background-position: center;
+  margin-top: 50px;
+}
+
+.event-header {
+	width: 100%;
+	height: 800px;
+  background-image: url(../img/event-bg.jpg);
+	background-size: cover;
+  background-position: center;
+  padding: 150px 15px;
+}
+
+.event-header-col-pad{ 
+	padding-left: 100px; 
+	padding-top: 100px;
+}
+	
+
+.pt-50 {
+	padding-top: 50px;
+}
+
+.pt-100 {
+	padding-top: 100px;
+}
+
+.pt-150 {
+	padding-top: 150px;
+}
+
+.ptb-25 {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.ptb-40 {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.ptb-50 {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.ptb-75 {
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+
+.ptb-100 {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.pb-50 {
+	padding-bottom: 50px;
+}
+
+.pb-100 {
+	padding-bottom: 100px;
+}
+
+.ml-150 {
+	margin-left: 150px;
+}
+
+.bt-rt {
+
+	background: #da7126;
+
+	background: -moz-linear-gradient(left, #da7126 0%, #f9b952 100%);
+
+	background: -webkit-linear-gradient(left, #da7126 0%, #f9b952 100%);
+
+	background: linear-gradient(to right, #da7126 0%, #f9b952 100%);
+
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#da7126', endColorstr='#f9b952', GradientType=1);
+
+}
+
+.bt-lt {
+
+	background: #f9b952;
+
+	background: -moz-linear-gradient(left, #f9b952 0%, #da7126 100%);
+
+	background: -webkit-linear-gradient(left, #f9b952 0%, #da7126 100%);
+
+	background: linear-gradient(to right, #f9b952 0%, #da7126 100%);
+
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9b952', endColorstr='#da7126', GradientType=1);
+
+}
+
+.brd-30 {
+	border-radius: 30px;
+}
+
+.brd-10 {
+	border-radius: 10px;
+}
+
+.btt-clr {
+	background: #ef994c;
+	border: 2px solid #fff;
+	color: #fff;
+}
+
+.subway-item::before {
+
+	content: '';
+
+	display: inline-block;
+
+	width: 15px;
+
+	height: 15px;
+
+	-moz-border-radius: 7.5px;
+
+	-webkit-border-radius: 7.5px;
+
+	border-radius: 7.5px;
+
+	background-color: #69b6d5;
+
+}
+
+.light-brown {
+	color: #d76b22;
+}
+
+.ord-li {
+	list-style: none !important;
+	line-height: 40px;
+	letter-spacing: 2px;
+}
+
+.ord-li li {
+	margin-bottom: 20px;
+}
+
+.ord-li li a {
+	color: #000 !important;
+}
+
+.fot-top-cnt {
+
+	/*background:#fbbf56; */
+
+	background: #d76d22;
+
+	background: -moz-linear-gradient(top, #d76d22 0%, #e08d22 100%);
+
+	background: -webkit-linear-gradient(top, #d76d22 0%, #e08d22 100%);
+
+	background: linear-gradient(to bottom, #d76d22 0%, #e08d22 100%);
+
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d76d22', endColorstr='#e08d22', GradientType=0);
+
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.30rem;
+
+	color: #fff;
+	padding: 10px;
+	margin-top: -35px;
+	margin-left: 8px;
+	text-align: center;
+}
+
+
+.fbord {
+	border: 3px solid #fbbf56;
+	display: inline-block;
+	width: 50%;
+	position: absolute;
+	right: -60px;
+	bottom: 25px;
+}
+
+.fcmystyle {
+	color: #fff !important;
+	background: none !important;
+	border-color: none !important;
+	border-bottom: 1px solid #fff !important;
+	/* transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;*/
+
+}
+
+.fcmystyle::placeholder {
+	color: #fff;
+	opacity: 0.5;
+}
+
+.fcmystyle-1 {
+	color: #fbbf56 !important;
+	background: none !important;
+	border-color: none !important;
+	border-bottom: 1px solid #fbbf56 !important;
+	text-align: right;
+	/* transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;*/
+
+}
+
+.fcmystyle-1::placeholder {
+	color: #fbbf56;
+	opacity: 0.5;
+}
+
+.fcmycsyle-bg {
+	background: #e39623;
+	padding: 30px;
+	border-radius: 30px;
+}
+
+.fcmycstyle {
+	color: #fff !important;
+	background: none !important;
+	border-color: none !important;
+	border-bottom: 1px solid #fff !important;
+	/* transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;*/
+
+}
+
+.fcmycstyle::placeholder {
+	color: #000;
+	opacity: 0.5;
+}
+
+
+.bt-clr {
+	/*background:#fbbf56 !important;*/
+	background: #FDFD96 !important;
+	color: #000;
+	border-color: #fbbf56;
+	float: right;
+	margin-right: 20px;
+}
+
+.btn-primary {
+	color: #000;
+	background-color: #FDFD96;
+	border-color: #FDFD96;
+}
+
+.btn-primary:hover {
+	color: #000;
+	background-color: #eeee41;
+	border-color: #eeee41;
+}
+
+.cbr {
+	border: 1px solid #fbbf56;
+}
+
+.cbg-2 {
+	/*background:#f3e5df;*/
+
+	background: #f3e5df;
+
+	background: -moz-linear-gradient(top, #f3e5df 0%, #ffffff 100%);
+
+	background: -webkit-linear-gradient(top, #f3e5df 0%, #ffffff 100%);
+
+	background: linear-gradient(to bottom, #f3e5df 0%, #ffffff 100%);
+
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f3e5df', endColorstr='#ffffff', GradientType=0);
+
+}
+
+.plr {
+	padding-left: 3.5rem;
+	padding-right: 3.5rem;
+}
+
+.ind-brd {
+	border-right: 5px solid #fbbf56;
+	padding-bottom: 10px;
+}
+
+.right-bradius {
+	background: #fff;
+	border-radius: 0px 150px 150px 0;
+	color: #000;
+	padding: 40px;
+	z-index: -1;
+	margin-top: 0px;
+	box-shadow: 10px 10px 5px 3px #e1d1c4;
+	max-height: 250px;
+}
+
+.nch-home {
+	background: #d56631;
+	border-bottom-left-radius: 100px;
+	margin-top: 0;
+}
+
+.slick-slider .slick-slide {
+  padding: 0 15px;
+}
+
+.chp-home {
+	text-align: start;
+	font-size: 15px;
+	padding-left: 135px;
+	line-height: 30px;
+}
+
+.fot-top-cnt a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.h550 {
+	height: 550px;
+}
+
+.pt-90 {
+	margin-top: 85px;
+	padding-bottom: 0px;
+}
+
+.fe-bg {
+	background: url(../img/event-form.png) top center no-repeat;
+	background-size: cover;
+	height: 800px;
+}
+
+.pl-50 {
+	padding-left: 50px;
+}
+
+.pr-50 {
+	padding-right: 50px;
+}
+
+.plh-30 {
+	line-height: 30px;
+}
+
+.mh-190 {
+	min-height: 190px;
+}
+
+
+@media (min-width: 992px) {
+
+	.navbar-expand-lg {
+		flex-flow: row nowrap;
+		justify-content: flex-start;
+	}
+
+	.pb-lg-9,
+	.py-lg-9 {
+		padding-bottom: 9rem !important;
+	}
+
+	.pt-lg-9,
+	.py-lg-9 {
+		padding-top: 9rem !important;
+	}
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 991px) {
+
+	.navbar-lg {
+		padding-top: 0rem;
+		padding-bottom: 0rem;
+		background: #fff;
+	}
+
+	.navbar-dark .navbar-toggler {
+		color: rgba(0, 0, 0, .5);
+		border-color: rgba(0, 0, 0, .5);
+	}
+
+	.pb-5,
+	.py-5 {
+		padding-bottom: 3rem;
+	}
+
+	.pt-5,
+	.py-5 {
+		padding-top: 3.5rem;
+	}
+
+	.ord-tc {
+		text-align: center;
+	}
+
+	.or-remtl5 {
+		padding-left: 0px !important;
+	}
+
+	.dhide {
+		display: none;
+	}
+
+	.fcnt {
+		padding-top: 0.5rem !important;
+		padding-left: 0.5rem !important;
+		text-align: center;
+		border-bottom: 1px solid #ef7e20;
+		border-top: 1px solid #ef7e20;
+	}
+
+	.fmenu {
+		/*text-align:left;*/
+		text-align: center;
+	}
+
+	.fmenu-1 {
+		text-align: right !important;
+		font-size: 10px;
+	}
+
+	.pt0-100 {
+		padding-top: 0px !important;
+	}
+
+	.pt50-150 {
+		padding-top: 50px !important;
+	}
+
+	.ptb-0 {
+		padding-top: 0px !important;
+		padding-bottom: 0px !important;
+	}
+
+	.bht-0 {
+		height: auto !important;
+	}
+
+	.ml-150 {
+		margin-left: 0px;
+	}
+
+	.ml-120 {
+		margin-left: 120px;
+	}
+
+	.center-bg {
+		width: 100%;
+		height: auto;
+		background-color: #e49b23;
+		background-image: none; /*url(../img/background-2.png);  */
+		background-size: cover; 
+		margin-top: 50px;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	.mh-190 {
+		min-height: auto !important;
+	}
+
+	.pl-50 {
+		padding-left: 10px;
+	}
+
+	.pr-50 {
+		padding-right: 10px;
+	}
+
+	.ind-fl {
+		float: left;
+	}
+
+	.clr-blwt {
+		color: #fff;
+	}
+
+	.ttxtl {
+		position: absolute;
+		top: 150px;
+		left: 25px;
+		width: 100px;
+	}
+
+	/*.home-bg{background:url(/web/20230223130810im_/http://www.teawheeler.co.in/img/bg.png) no-repeat top; background-size:contain; top:60px; height:400px;}*/
+
+	.tcycle {
+		top: 65px;
+	}
+
+	.tcycle-txt {
+		top: 20px;
+		right: 40px;
+	}
+
+	.display-4 {
+		font-size: 1.0rem;
+	}
+
+	.tbig {
+		font-size: 30px;
+		display: inline-block;
+	}
+
+	.w250 {
+		width: 150px;
+		left: 0px;
+		position: absolute;
+		top: 30px;
+	}
+
+	.ind-brd {
+		border-right: 5px solid #fbbf56;
+		padding-bottom: 30px;
+	}
+
+	.tlight {
+		/* top: 150px;*/
+		top: 175px;
+		left: 0;
+	}
+
+	.right-bradius {
+		/*max-height:270px;*/
+		max-height: 510px;
+		height: auto;
+		margin-top: 450px;
+		z-index: 2;
+		background: rgba(255, 255, 255, 0.85);
+	}
+
+	.ml-120 {
+		margin-left: 0px;
+	}
+
+	.mlt200 {
+		/*margin-top:160px;*/
+		margin-top: 50px;
+		padding-left: 25px;
+	}
+
+	.chp-home {
+		padding-left: 20px;
+	}
+
+	.h550 {
+		height: auto;
+	}
+
+	.h551 {
+		height: 100%;
+	}
+
+	.pt-50 {
+		padding-top: 25px !important;
+	}
+
+	.mpt-100 {
+		padding-top: 100px !important;
+	}
+
+
+	.mpt-80 {
+		padding-top: 20px !important;
+	}
+
+	.msme-h2 {
+		font-size: 1.5rem;
+	}
+
+	.msme-h1 {
+		font-size: 2.05rem;
+	}
+
+	.oo-h2 {
+		font-size: 1.75rem;
+	}
+
+	.ft-tc {
+		text-align: center !important;
+	}
+
+	.fot-top-cnt {
+		font-size: 1.2rem !important;
+	}
+
+	.img-w75 {
+		width: 49% !important;
+	}
+	
+	.img-w50 {
+		width: 40% !important;
+	}
+
+	.ord-li {
+		line-height: 30px;
+		letter-spacing: 0.5px;
+		font-size: small;
+	}
+
+	.pt-90 {
+		margin-top: 0px;
+		padding-bottom: 0px;
+	}
+
+	.pt-75 {
+		padding-top: 75px;
+	}
+
+	.mm55 {
+		height: auto !important;
+	}
+
+	.fcmycsyle-bg {
+		margin: 5px;
+	}
+
+	.fe-bg {
+		background: url(../img/event-form.png) top right no-repeat;
+		background-size: cover;
+		height: auto;
+	}
+
+	.fe-bg-pb75 {
+		padding-bottom: 75px;
+	}
+
+	.ind-h2 {
+		font-size: 1.35rem;
+		line-height: 30px;
+	}
+
+	.w-50 {
+		width: 65% !important;
+	}
+
+	.plh-30 {
+		line-height: 25px;
+	}
+	
+	.event-header-col-pad {
+	  padding-left: 20px;
+	  padding-top: 0;
+	  padding-bottom: 30px;
+	}
+
+}
+
+@media screen and (min-width: 993px) and (max-width: 1680px) {
+
+	.pt-lg-9,
+	.py-lg-9 {
+		padding-top: 6.0rem !important;
+	}
+
+	.navbar {
+		padding: 0rem !important;
+	}
+
+}
+
+
+/*
+     FILE ARCHIVED ON 13:08:10 Feb 23, 2023 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 09:46:29 Apr 04, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.57
+  exclusion.robots: 0.144
+  exclusion.robots.policy: 0.136
+  cdx.remote: 0.055
+  esindex: 0.007
+  LoadShardBlock: 64.513 (3)
+  PetaboxLoader3.datanode: 44.99 (4)
+  load_resource: 70.814
+  PetaboxLoader3.resolve: 33.12
+*/
