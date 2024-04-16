@@ -4,6 +4,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <title>Tea Wheeler</title>
+	  <link rel="icon" type="image/x-icon" href="img/favicon.png">
       <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
@@ -157,7 +158,7 @@
                <!-- Navbar nav -->
                <ul class="navbar-nav">
                   <li class="nav-item">
-                     <a class="nav-link active" href="index.php">Home</a>
+                     <a class="nav-link " href="index.php">Home</a>
                   </li>
                   <li class="nav-item">
                      <a class="nav-link " href="for-events.php">Events</a>
@@ -174,7 +175,7 @@
                <!-- Navbar nav -->
                <ul class="navbar-nav">
                   <li class="nav-item">
-                     <a class="nav-link " href="order-online.php">Order Online</a>
+                     <a class="nav-link active" href="order-online.php">Order Online</a>
                   </li>
                   <li class="nav-item">
                      <a class="nav-link " href="on-the-go.php">On The Go</a>

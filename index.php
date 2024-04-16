@@ -3,13 +3,12 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Tea Wheeler</title>
-	
+    <title>Tea Wheeler</title>	
+	<link rel="icon" type="image/x-icon" href="img/favicon.png">
 	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-	
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">	
     <link rel="stylesheet" type="text/css" href="css/banner-styles.css">
     <link rel="stylesheet" type="text/css" href="css/iconochive.css?v=qtvMKcIJ">
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">

@@ -4,6 +4,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <title>Tea Wheeler</title>
+	  <link rel="icon" type="image/x-icon" href="img/favicon.png">
       <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
@@ -158,10 +159,10 @@
                <!-- Navbar nav -->
                <ul class="navbar-nav">
                   <li class="nav-item">
-                     <a class="nav-link active" href="index.php">Home</a>
+                     <a class="nav-link " href="index.php">Home</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link " href="for-events.php">Events</a>
+                     <a class="nav-link active" href="for-events.php">Events</a>
                   </li>
                   <li class="nav-item">
                      <a class="nav-link " href="msme.php">MSME</a>
@@ -209,7 +210,7 @@
          </div>    
          
          </section>-->
-         <section class="event-header" >
+        <section class="event-header" >
           <div class="container">
           <div class="row align-items-center">
               <div class="col-md-6 event-header-col-pad">
@@ -217,17 +218,17 @@
                 <h1 style="font-weight: 600;">Contact us today</h1>
               </div>
               <div class="col-md-6">
-                <img src="img/coffee.jpg" alt="coffee" class="img-fluid">
+                <img src="img/coffee.png" alt="coffee" class="img-fluid">
               </div>
           </div>
           </div>
       </section>
       <section>
-         <div class="container pt-50">
+         <div class="container pt-50 pb-50">
             <div class="row">
                <div class="col-md-4"></div>
                <div class="col-md-4" align="center">
-                  <img src="img/event-tea.png" alt="1" class="img-fluid" height="120"/>
+                  <img src="img/cycle.png" alt="1" class="img-fluid" height="120"/>
                </div>
                <div class="col-md-4"></div>
                <div class="col-md-12 pt-4">
