@@ -169,8 +169,8 @@
                   </li>
                </ul>
                <!-- Navbar brand -->
-               <a class="navbar-brand d-none d-lg-flex mx-lg-auto" href="">
-               <img src="https://web.archive.org/web/20230223130810im_/http://www.teawheeler.co.in/img/logo.png" alt="logo" width="100"
+               <a class="navbar-brand d-none d-lg-flex mx-lg-auto" href="index.php">
+               <img src="img/logo.png" alt="logo" width="100"
                   class="img-fluid">
                </a>
                <!-- Navbar nav -->
@@ -239,7 +239,7 @@
          <div class="container">
             <div class="row">
                <div align="center">
-                  <img src="https://www.dummyimage.com/1920x400.png" alt="3" class="img-fluid"/>        
+                  <img src="img/bridge-orage.png" alt="3" class="img-fluid"/>        
                </div>
             </div>
          </div>
@@ -263,9 +263,9 @@
                </div>
                <div class="row">
                   <div class="col-md-4 col-xs-12 mb-1 ft-tc">
-                     <img src="https://web.archive.org/web/20230223130810im_/http://www.teawheeler.co.in/img/logo.png" width="100"
+                     <img src="img/logo.png" width="100"
                         class="img-fluid"><br>
-                     <img src="https://web.archive.org/web/20230223130810im_/http://www.teawheeler.co.in/img/txt-logo.png" width="100"
+                     <img src="img/txt-logo.png" width="100"
                         class="img-fluid">
                   </div>
                   <div class="col-md-4 col-xs-12 mb-1 pt-3 ft-tc">

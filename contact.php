@@ -51,8 +51,8 @@
                 </li>
             </ul>
             <!-- Navbar brand -->
-            <a class="navbar-brand d-none d-lg-flex mx-lg-auto" href="">
-            <img src="https://web.archive.org/web/20230223130810im_/http://www.teawheeler.co.in/img/logo.png" alt="logo" width="100"
+            <a class="navbar-brand d-none d-lg-flex mx-lg-auto" href="index.php">
+            <img src="img/logo.png" alt="logo" width="100"
                 class="img-fluid">
             </a>
             <!-- Navbar nav -->
@@ -79,19 +79,21 @@
                <div class="col-md-7 col-xs-12"></div>
                <div class="col-md-5 col-xs-12 pt-100 pt0-100 fe-bg-pb75" align="center">
                   <h3 class="text-center mb-5 mh-ft clr-wht">Connect with us!</h3>
-                  <form>
+                  <form class="contact-form" action="#" method="post">
                      <div class="form-group mb-5">
-                        <input type="text" class="form-control fcmystyle" id="formGroupExampleInput" placeholder="Name">
+                        <input type="text" name="name" class="form-control fcmystyle" id="contact-name" placeholder="Name" required />
                      </div>
                      <div class="form-group mb-5">
-                        <input type="text" class="form-control fcmystyle" id="formGroupExampleInput2" placeholder="Email">
+                        <input type="text" name="email" class="form-control fcmystyle" id="contact-email" placeholder="Email" required />
                      </div>
                      <div class="form-group mb-5">
-                        <input type="text" class="form-control fcmystyle" id="formGroupExampleInput2" placeholder="Query">
+                        <input type="text" name="message" class="form-control fcmystyle" id="contact-message" placeholder="Query"  required />
                      </div>
                      <div class="form-group">
                         <button type="submit" class="btn btn-primary">Submit</button>
                      </div>
+					 
+					 <div class="messageDiv"> <span class="sucessMessage"> </span>  <span class="failMessage"> 	</span>
                   </form>
                </div>
             </div>
@@ -118,9 +120,9 @@
             </div>
             <div class="row">
                 <div class="col-md-4 col-xs-12 mb-1 ft-tc">
-                    <img src="https://web.archive.org/web/20230223130810im_/http://www.teawheeler.co.in/img/logo.png" width="100"
+                    <img src="img/logo.png" width="100"
                     class="img-fluid"><br>
-                    <img src="https://web.archive.org/web/20230223130810im_/http://www.teawheeler.co.in/img/txt-logo.png" width="100"
+                    <img src="img/txt-logo.png" width="100"
                     class="img-fluid">
                 </div>
                 <div class="col-md-4 col-xs-12 mb-1 pt-3 ft-tc">
@@ -233,10 +235,13 @@
     </section>
     <!--footer part end-->
     <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->   
+	<script src="js/jquery.min.js"></script>	
     <script src="js/jquery-3.3.1.slim.min.js" integrity="" crossorigin="anonymous"></script>
     <script src="js/popper.js@1.14.7/dist/umd/popper.min.js" integrity="" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js" integrity="" crossorigin="anonymous"></script> 
     <script defer src="js/all.js"></script>
+	<script defer src="js/jquery.validate.min.js"></script>
+	  <script defer src="js/custom.js"></script>
 </body>
 </html>

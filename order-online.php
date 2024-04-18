@@ -168,8 +168,8 @@
                   </li>
                </ul>
                <!-- Navbar brand -->
-               <a class="navbar-brand d-none d-lg-flex mx-lg-auto" href="">
-               <img src="https://web.archive.org/web/20230223130810im_/http://www.teawheeler.co.in/img/logo.png" alt="logo" width="100"
+               <a class="navbar-brand d-none d-lg-flex mx-lg-auto" href="index.php">
+               <img src="img/logo.png" alt="logo" width="100"
                   class="img-fluid">
                </a>
                <!-- Navbar nav -->
@@ -193,7 +193,7 @@
 		<div class="order-online-header">
          <div class="container">
             <div class="row">
-               <div class="col-md-8 pt-100 pb-50 pl-5 mpt-100">
+               <div class="col-md-8 pt-50 pb-100 pl-5 mpt-100">
                   <h2 class="font-weight-semibold oo-h2 ">Hungry ?</h2>
                   <h2 class="font-weight-bold mh-ft oo-h2 ">Order exclusively on your favourite delivery apps.</h2>
                </div>
@@ -203,18 +203,18 @@
 		</div>  
       </section>
       <section class="bg-white">
-         <div class="container ptb-100 pt-50">
+         <div class="container pb-100 pt-0">
             <div class="row align-items-center">
                <div class="col-md-6 col-xs-12">
                   <ul class="pt-5 ord-li ord-tc or-remtl5">
-                     <li><img src="https://www.dummyimage.com/200x80.png" alt="1" class="img-fluid img-w50"/>&nbsp;&nbsp;<a href="https://web.archive.org/web/20230223130814/https://www.swiggy.com/restaurants/tea-wheelers-vadapalani-west-mambalam-chennai-373658?sld=false">Order through Swiggy&nbsp;&nbsp;<i class="fa fa-arrow-right light-brown"></i></a></li>
-                     <li><img src="https://www.dummyimage.com/200x80.png" alt="1" class="img-fluid img-w50"/>&nbsp;&nbsp;<a href="https://web.archive.org/web/20230223130814/https://www.zomato.com/chennai/tea-wheelers-west-mambalam">Order through Zomato&nbsp;&nbsp;<i class="fa fa-arrow-right light-brown"></i></a></li>
+                     <li><img src="img/swiggy.png" alt="1" class="img-fluid img-w50" width="250" />&nbsp;&nbsp;<a class="mx-3" href="https://www.swiggy.com/restaurants/tea-wheelers-vadapalani-west-mambalam-chennai-373658?sld=false">Order through Swiggy&nbsp;&nbsp;<i class="fa fa-arrow-right light-brown"></i></a></li>
+                     <li><img src="img/zomato.png" alt="1" class="img-fluid img-w50" width="250" />&nbsp;&nbsp;<a class="mx-3" href="https://www.zomato.com/chennai/tea-wheelers-west-mambalam">Order through Zomato&nbsp;&nbsp;<i class="fa fa-arrow-right light-brown"></i></a></li>
                      <!--<li><img src="img/del-3.png" alt="1" class="img-fluid"/>&nbsp;&nbsp;<a href="">Order through Dunzo&nbsp;&nbsp;<i class="fa fa-arrow-right light-brown"></i></a></li>-->
                   </ul>
                </div>
                <div class="col-md-6 col-xs-12" align="center">
-                <img src="https://web.archive.org/web/20230223130810im_/http://www.teawheeler.co.in/img/logo.png" width="300" class="img-fluid"><br>
-             <img src="https://web.archive.org/web/20230223130810im_/http://www.teawheeler.co.in/img/txt-logo.png" width="300" class="img-fluid">
+                <img src="img/logo.gif" class="img-fluid"><br>
+             <!-- <img src="img/txt-logo.png" width="300" class="img-fluid"> -->
                </div>
             </div>
          </div>
@@ -238,9 +238,9 @@
                </div>
                <div class="row">
                   <div class="col-md-4 col-xs-12 mb-1 ft-tc">
-                     <img src="https://web.archive.org/web/20230223130810im_/http://www.teawheeler.co.in/img/logo.png" width="100"
+                     <img src="img/logo.png" width="100"
                         class="img-fluid"><br>
-                     <img src="https://web.archive.org/web/20230223130810im_/http://www.teawheeler.co.in/img/txt-logo.png" width="100"
+                     <img src="img/txt-logo.png" width="100"
                         class="img-fluid">
                   </div>
                   <div class="col-md-4 col-xs-12 mb-1 pt-3 ft-tc">

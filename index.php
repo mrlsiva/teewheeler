@@ -50,8 +50,8 @@
                 </li>
             </ul>
             <!-- Navbar brand -->
-            <a class="navbar-brand d-none d-lg-flex mx-lg-auto" href="">
-            <img src="https://web.archive.org/web/20230223130810im_/http://www.teawheeler.co.in/img/logo.png" alt="logo" width="100"
+            <a class="navbar-brand d-none d-lg-flex mx-lg-auto" href="index.php">
+            <img src="img/logo.png" alt="logo" width="100"
                 class="img-fluid">
             </a>
             <!-- Navbar nav -->
@@ -70,87 +70,31 @@
         </div>
         </div>
     </nav>
-    
-    <!-- <div id="demo" class="carousel slide pointer-event" data-ride="carousel">
-        <div id="carouselExampleInterval" class="carousel slide pointer-event" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active" data-interval="36000">
-                
-            </div>
-        </div>
-        </div> 
-    </div> -->
+
     <!--=============================== VIDEO AREA START =======================-->
     <section class="position-relative" id="video-section">
-    <!-- <iframe class="loadframeLazy" width="100%" height="550" src="https://www.youtube.com/embed/2SdEYP04XOE?muted=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; autostop; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-loadframe="pause"></iframe> -->
-    <video src="https://web.archive.org/web/20230223130810im_/http://www.teawheeler.co.in/img/TW Website animate with UI LATEST.mp4" type="video/mp4" style="width: 100%; height: 100vh; object-fit: cover;" id="video" autoplay muted loop></video>
-</section>
-<!-- <script>
-// Get the video element
-const video = document.getElementById('video');
-let isVideoInViewport = false;
-
-// Function to play the video
-function playVideo() {
-if (video.play) {
-video.play();
-}
-}
-
-// Function to pause the video
-function pauseVideo() {
-if (!video.paused) {
-video.pause();
-}
-}
-
-// Create an Intersection Observer
-const observer = new IntersectionObserver(entries => {
-entries.forEach(entry => {
-if (entry.isIntersecting) {
-    // The section is in the viewport
-    if (!isVideoInViewport) {
-        // Play the video only when it initially scrolls in
-        playVideo();
-        isVideoInViewport = true;
-    }
-} else {
-    // The section is out of the viewport
-    if (isVideoInViewport) {
-        // Pause the video only when it initially scrolls out
-        pauseVideo();
-        isVideoInViewport = false;
-    }
-}
-});
-});
-
-// Observe the video section
-observer.observe(document.getElementById('video-section'));
-
-</script> -->
-<!--=============================== VIDEO AREA END ======================-->
-    <!-- <section>
-    <video style="width:100%; background:#000;" autoplay="" muted="" loop="" controls="" preload="auto"
+    <video id="video" style="width:100%; background:#000; object-fit: cover; pointer-events: none;" autoplay muted loop controls="false" preload="auto"
             class="">
             <source
-            src="https://web.archive.org/web/20230223130810im_/http://www.teawheeler.co.in/img/TW Website animate with UI LATEST.mp4"
+            src="img/header-video.mp4"
             class="w-100" type="video/mp4">
             Sorry, your browser doesn't support embedded videos.
         </video>
-    </section> -->
+    </section>
+</section>
+<!--=============================== VIDEO AREA END ======================-->   
     <section style="position:relative; bottom:0px;">
         <div class="container-fluid">
         <div class="row">
             <div class="col-md-8">
-                <img src="https://web.archive.org/web/20230223130810im_/http://www.teawheeler.co.in/img/light-house.png"
+                <img src="img/light-house.png"
                     class="img-fluid img-cover tlight" alt="Tea">
             </div>
             <div class="col-md-4" >
                 <div class="row nch-home" >
                     <div class="col-md-8 col-sm-8 col-8 ptb-40 ptb-0">
 						<a href="order-online.php"><img
-                        src="https://web.archive.org/web/20230223130810im_/http://www.teawheeler.co.in/img/button.jpg"
+                        src="img/button.jpg"
                         class="img-fluid w250" style="margin-left:30px;"></a>
                     </div>
                     <div class="col-md-4 col-sm-4 col-4 pr-0">
@@ -242,7 +186,7 @@ observer.observe(document.getElementById('video-section'));
                 </p>
             </div>
             <div class="col-md-4 col-xs-12"><img
-                src="https://web.archive.org/web/20230223130810im_/http://www.teawheeler.co.in/img/flask-tea.png" alt="1"
+                src="img/flask-tea.png" alt="1"
                 class="img-fluid mlt200"></div>
         </div>
         </div>
@@ -333,108 +277,7 @@ observer.observe(document.getElementById('video-section'));
 					  <div class="slide"><img src="img/8.jpg" class="img-fluid"><br><p>Any Beverage Flask 500ml + Masala Peanuts</p></div> 
 					  <div class="slide"><img src="img/9.jpg" class="img-fluid"><br><p>Cardamom Tea</p></div>
 					  <div class="slide"><img src="img/10.jpg" class="img-fluid"><br><p>Filter Coffee</p></div>     
-                </div>
-                <!-- <section class="customer-logos slider slick-initialized slick-slider" style="display:none">
-                    <div aria-live="polite" class="slick-list draggable">
-                    <div class="slick-track" role="listbox" >
-                        <div style="display:none" class="slide slick-slide slick-cloned" data-slick-index="-3" aria-hidden="true"
-                            tabindex="-1" style="width: 370px;">
-                            <img
-                                src="https://web.archive.org/web/20230223130810im_/http://www.teawheeler.co.in/img/8.jpg"><br>
-                            <p>Any Beverage Flask 500ml + Masala Peanuts</p>
-                        </div>
-                        <div style="display:none" class="slide slick-slide slick-cloned" data-slick-index="-2" aria-hidden="true"
-                            tabindex="-1" style="width: 370px;">
-                            <img
-                                src="https://web.archive.org/web/20230223130810im_/http://www.teawheeler.co.in/img/9.jpg"><br>
-                            <p>Cardamom Tea</p>
-                        </div>
-                        <div style="display:none" class="slide slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true"
-                            tabindex="-1" style="width: 370px;">
-                            <img
-                                src="https://web.archive.org/web/20230223130810im_/http://www.teawheeler.co.in/img/10.jpg"><br>
-                            <p>Filter Coffee</p>
-                        </div>
-                        <div style="display:none" class="slide slick-slide" data-slick-index="0" aria-hidden="true" tabindex="-1"
-                            role="option" aria-describedby="slick-slide00" style="width: 370px;">
-                            <img
-                                src="https://web.archive.org/web/20230223130810im_/http://www.teawheeler.co.in/img/1.jpg"><br>
-                            <p>Any Beverage Flask 300ml + Bhujia</p>
-                        </div>
-                        <div style="display:none" class="slide slick-slide" data-slick-index="1" aria-hidden="true" tabindex="-1"
-                            role="option" aria-describedby="slick-slide01" style="width: 370px;">
-                            <img
-                                src="https://web.archive.org/web/20230223130810im_/http://www.teawheeler.co.in/img/2.jpg"><br>
-                            <p>Any Beverage Flask 300ml + Cashew</p>
-                        </div>
-                        <div style="display:none" class="slide slick-slide" data-slick-index="2" aria-hidden="true" tabindex="-1"
-                            role="option" aria-describedby="slick-slide02" style="width: 370px;">
-                            <img
-                                src="https://web.archive.org/web/20230223130810im_/http://www.teawheeler.co.in/img/3.jpg"><br>
-                            <p>Any Beverage Flask 300ml + Cheese magi</p>
-                        </div>
-                        <div style="display:none" class="slide slick-slide" data-slick-index="3" aria-hidden="true" tabindex="-1"
-                            role="option" aria-describedby="slick-slide03" style="width: 370px;">
-                            <img
-                                src="https://web.archive.org/web/20230223130810im_/http://www.teawheeler.co.in/img/4.jpg"><br>
-                            <p>Any Beverage Flask 300ml + Dry Samosa</p>
-                        </div>
-                        <div style="display:none" class="slide slick-slide" data-slick-index="4" aria-hidden="true" tabindex="-1"
-                            role="option" aria-describedby="slick-slide04" style="width: 370px;">
-                            <img
-                                src="https://web.archive.org/web/20230223130810im_/http://www.teawheeler.co.in/img/5.jpg"><br>
-                            <p>Any Beverage Flask 300ml + Podi Idli</p>
-                        </div>
-                        <div style="display:none" class="slide slick-slide slick-current slick-active" data-slick-index="5"
-                            aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide05"
-                            style="width: 370px;">
-                            <img
-                                src="https://web.archive.org/web/20230223130810im_/http://www.teawheeler.co.in/img/6.jpg"><br>
-                            <p>Any Beverage Flask 300ml + Rava Upma</p>
-                        </div>
-                        <div style="display:none" class="slide slick-slide slick-active" data-slick-index="6" aria-hidden="false"
-                            tabindex="-1" role="option" aria-describedby="slick-slide06" style="width: 370px;">
-                            <img src="https://web.archive.org/web/20230223130810im_/http://www.teawheeler.co.in/img/7.jpg"><br>
-                            <p>Any Beverage Flask 500ml + Kuzhi Paniyaram-6</p>
-                        </div>
-                        <div style="display:none" class="slide slick-slide slick-active" data-slick-index="7" aria-hidden="false"
-                            tabindex="-1" role="option" aria-describedby="slick-slide07" style="width: 370px;">
-                            <img src="https://web.archive.org/web/20230223130810im_/http://www.teawheeler.co.in/img/8.jpg"><br>
-                            <p>Any Beverage Flask 500ml + Masala Peanuts</p>
-                        </div>
-                        <div style="display:none" class="slide slick-slide" data-slick-index="8" aria-hidden="true" tabindex="-1"
-                            role="option" aria-describedby="slick-slide08" style="width: 370px;">
-                            <img
-                                src="https://web.archive.org/web/20230223130810im_/http://www.teawheeler.co.in/img/9.jpg"><br>
-                            <p>Cardamom Tea</p>
-                        </div>
-                        <div style="display:none" class="slide slick-slide" data-slick-index="9" aria-hidden="true" tabindex="-1"
-                            role="option" aria-describedby="slick-slide09" style="width: 370px;">
-                            <img
-                                src="https://web.archive.org/web/20230223130810im_/http://www.teawheeler.co.in/img/10.jpg"><br>
-                            <p>Filter Coffee</p>
-                        </div>
-                        <div style="display:none" class="slide slick-slide slick-cloned" data-slick-index="10" aria-hidden="true"
-                            tabindex="-1" style="width: 370px;">
-                            <img
-                                src="https://web.archive.org/web/20230223130810im_/http://www.teawheeler.co.in/img/1.jpg"><br>
-                            <p>Any Beverage Flask 300ml + Bhujia</p>
-                        </div>
-                        <div style="display:none" class="slide slick-slide slick-cloned" data-slick-index="11" aria-hidden="true"
-                            tabindex="-1" style="width: 370px;">
-                            <img
-                                src="https://web.archive.org/web/20230223130810im_/http://www.teawheeler.co.in/img/2.jpg"><br>
-                            <p>Any Beverage Flask 300ml + Cashew</p>
-                        </div>
-                        <div style="display:none" class="slide slick-slide slick-cloned" data-slick-index="12" aria-hidden="true"
-                            tabindex="-1" style="width: 370px;">
-                            <img
-                                src="https://web.archive.org/web/20230223130810im_/http://www.teawheeler.co.in/img/3.jpg"><br>
-                            <p>Any Beverage Flask 300ml + Cheese magi</p>
-                        </div>
-                    </div>
-                    </div>
-                </section> -->
+                </div>              
             </div>
         </div>
         </div>
@@ -460,9 +303,9 @@ observer.observe(document.getElementById('video-section'));
             </div>
             <div class="row">
                 <div class="col-md-4 col-xs-12 mb-1 ft-tc">
-                    <img src="https://web.archive.org/web/20230223130810im_/http://www.teawheeler.co.in/img/logo.png" width="100"
+                    <img src="img/logo.png" width="100"
                     class="img-fluid"><br>
-                    <img src="https://web.archive.org/web/20230223130810im_/http://www.teawheeler.co.in/img/txt-logo.png" width="100"
+                    <img src="img/txt-logo.png" width="100"
                     class="img-fluid">
                 </div>
                 <div class="col-md-4 col-xs-12 mb-1 pt-3 ft-tc">

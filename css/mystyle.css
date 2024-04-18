@@ -346,7 +346,7 @@ a:hover {
 .msme-header {
 	width: 100%;
 	background-image: url(../img/MSME.png);
-	background-size: contain;
+	background-size: cover;
 	background-position: left center;
 	background-repeat: no-repeat;
 	padding: 150px 15px;
@@ -355,10 +355,18 @@ a:hover {
 .order-online-header {
 	width: 100%;
 	background-image: url(../img/temple.png);
-	background-size: contain;
+	background-size: cover;
 	background-position: bottom center;
 	background-repeat: no-repeat;
 	padding: 150px 15px;
+}
+
+.on-the-go-header {
+	width: 100%;
+	background-image: url(../img/on-the-go-header.png);
+	background-size: contain;
+	background-position: bottom center;
+	background-repeat: no-repeat;	
 }
 
 .bg-white { 
@@ -484,7 +492,7 @@ a:hover {
 .ord-li {
 	list-style: none !important;
 	line-height: 40px;
-	letter-spacing: 2px;
+	letter-spacing: 0.5px;
 }
 
 .ord-li li {
@@ -693,6 +701,95 @@ a:hover {
 	min-height: 190px;
 }
 
+.slick-slide {
+  height: auto !important;
+}
+
+.slick-track {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  align-items: stretch !important;
+  height: 100%;
+}
+
+
+/* slider */
+.on-the-go-slider,
+.slick-list {
+	margin-bottom: 0 !important;
+	height: 100%;
+}	
+.on-the-go-slider .slick-arrow {
+	z-index: 1;
+	width: 40px;
+	height: 40px;
+}
+
+.on-the-go-slider .slick-arrow:before {
+	font-size: 30px;
+}
+.on-the-go-slider .slick-next {
+	right: 50px !important;
+}
+.on-the-go-slider .slick-prev {
+	left: 10px !important;
+}
+
+.on-the-go-slider .btn-wrap {
+	text-align: center;
+	width: 100%;
+}
+.on-the-go-slider.slick-slider button:before,
+.on-the-go-slider.slick-slider button:after {
+	background-color: #D28F36;
+	border: none;
+	padding: 10px;
+	border-radius: 50px;
+	margin: 10px;
+	font-size: 18px;
+	font-weight: 600;
+	transition: all 0.5s;
+}
+.on-the-go-slider.slick-slider button.slick-disabled {
+	opacity: 0.6;
+}
+
+.on-the-go-slider .slick-arrow {
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+}
+
+.on-the-go-slider.slick-slider img {
+	height: 100%;
+}
+
+/* Form CSS */
+.messageDiv {
+	padding-top: 10px;
+	text-align: center;
+}
+
+label.error {
+	color: #ff0000;
+	text-align: left;
+	display: block;
+}
+
+
+.sucessMessage {
+	color: #0fa80f;
+	font-size: 14px !important;
+	line-height: 24px !important;
+}
+
+.failMessage {
+	color: #ff0000;
+	font-size: 14px !important;
+	line-height: 24px !important;
+}
+
 
 @media (min-width: 992px) {
 
@@ -709,6 +806,13 @@ a:hover {
 	.pt-lg-9,
 	.py-lg-9 {
 		padding-top: 9rem !important;
+	}
+	
+	.msme-header {
+		background-size: contain;
+	}	
+	.h-600 {
+		height: 600px;
 	}
 
 }
