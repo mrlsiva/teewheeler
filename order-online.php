@@ -169,7 +169,7 @@
                </ul>
                <!-- Navbar brand -->
                <a class="navbar-brand d-none d-lg-flex mx-lg-auto" href="index.php">
-               <img src="img/logo.png" alt="logo" width="100"
+               <img src="img/logo.gif" alt="logo" width="100"
                   class="img-fluid">
                </a>
                <!-- Navbar nav -->
@@ -344,7 +344,6 @@
                            </svg>
                            <!-- <i class="fab fa-linkedin fa-lg sicon"></i> -->
                         </a>
-                        <span class="fbord dhide"></span>
                      </p>
                   </div>
                </div>

@@ -765,6 +765,13 @@ a:hover {
 	height: 100%;
 }
 
+.sandal-bg {		
+	background: -moz-linear-gradient(right, #efdcd5 0%, #f7eee9 70%);
+  background: -webkit-linear-gradient(right, #efdcd5 0%, #f7eee9 70%);
+  background: linear-gradient(to right, #efdcd5 0%, #f7eee9 70%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#efdcd5', endColorstr='#f7eee9', GradientType=0);
+}
+
 /* Form CSS */
 .messageDiv {
 	padding-top: 10px;

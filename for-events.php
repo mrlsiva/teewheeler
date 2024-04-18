@@ -170,7 +170,7 @@
                </ul>
                <!-- Navbar brand -->
                <a class="navbar-brand d-none d-lg-flex mx-lg-auto" href="index.php">
-               <img src="img/logo.png" alt="logo" width="100"
+               <img src="img/logo.gif" alt="logo" width="100"
                   class="img-fluid">
                </a>
                <!-- Navbar nav -->
@@ -223,7 +223,7 @@
           </div>
           </div>
       </section>
-      <section>
+      <section class="sandal-bg">
          <div class="container pt-50 pb-50">
             <div class="row">
                <div class="col-md-4"></div>
@@ -406,7 +406,6 @@
                            </svg>
                            <!-- <i class="fab fa-linkedin fa-lg sicon"></i> -->
                         </a>
-                        <span class="fbord dhide"></span>
                      </p>
                   </div>
                </div>
