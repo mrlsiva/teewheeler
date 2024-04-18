@@ -342,6 +342,28 @@ a:hover {
 .event-header-col-pad{ 
 	padding-left: 100px; 
 }
+
+.msme-header {
+	width: 100%;
+	background-image: url(../img/MSME.png);
+	background-size: contain;
+	background-position: left center;
+	background-repeat: no-repeat;
+	padding: 150px 15px;
+}
+
+.order-online-header {
+	width: 100%;
+	background-image: url(../img/temple.png);
+	background-size: contain;
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	padding: 150px 15px;
+}
+
+.bg-white { 
+	background-color: #ffffff;
+}
 	
 
 .pt-50 {

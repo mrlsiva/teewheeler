@@ -189,14 +189,14 @@
             </div>
          </div>
       </nav>
-      <section class="h550" style="position:relative;background:url(https://www.dummyimage.com/1920x1080.png) top left no-repeat; background-size:contain; width:100%; border-bottom:3px groove #ef994c; padding-top:100px;">
+      <section class="msme-header" style="border-bottom:3px groove #ef994c; padding-top:100px;">
          <div class="container">
-            <div class="row">
-               <div class="col-md-6 pt-150 pl-5 mpt-100">
+            <div class="row pt-150 pb-150">
+               <div class="col-md-7 pl-5 ">
                   <!--<h2 class="font-weight-semibold">MSME</h2>
                      <h2 class="font-weight-bold mh-ft">Save more by drinking more</h2>-->
                </div>
-               <div class="col-md-6 pt-150 pl-5 pt-50 pb-50">
+               <div class="col-md-5 pl-5 ">
                   <h2 class="font-weight-semibold dr-clr msme-h2">SIP By SIP</h2>
                   <h2 class="font-weight-bold mh-ft msme-h2">"Pay less as you drink more"</h2>
                </div>
@@ -221,15 +221,15 @@
             <div class="row">
                <h1 class="mh-ft mb-4 col-md-12 text-center msme-h1 mb-4 pb-4">Choose Your Chai Stop!</h1>
                <div class="col-md-4 col-xs-12" align="center">
-                  <img src="https://www.dummyimage.com/200x200.png" alt="1" class="img-fluid"/><br>
+                  <img src="img/MSME-1.png" alt="1" class="img-fluid" width="250" /><br>
                   <p class="font-weight-bold mt-4">The Chai Table</p>
                </div>
                <div class="col-md-4 col-xs-12" align="center">
-                  <img src="https://www.dummyimage.com/200x200.png" alt="2" class="img-fluid"/><br>
+                  <img src="img/MSME-2.png" alt="2" class="img-fluid" width="250" /><br>
                   <p class="font-weight-bold mt-4">The Chai Corner</p>
                </div>
                <div class="col-md-4 col-xs-12" align="center">
-                  <img src="https://www.dummyimage.com/200x200.png" alt="3" class="img-fluid"/><br>
+                  <img src="img/MSME-3.png" alt="3" class="img-fluid" width="250" /><br>
                   <p class="font-weight-bold mt-4">The Chai Stop</p>
                </div>
             </div>

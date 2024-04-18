@@ -298,10 +298,10 @@
             <div class="row">
                <div class="col-md-6 col-xs-12 bg-white pl-0 pr-0">
                   <p class="ft-18 plr pt-5 pb-1 lh-30">Our professionally trained ‘Tea Stoppers’ are spread across key locations throughout the city.</p>
-                  <p class="ft-18 plr pt-1 pb-5 lh-30">Our Tea Stoppers are equipped with hot beverages such as tea &amp; coffee and a wide variety of snacks, ready to serve you with the highest standards of service and warmth.</p>
+                  <p class="ft-18 plr pt-1 lh-30">Our Tea Stoppers are equipped with hot beverages such as tea &amp; coffee and a wide variety of snacks, ready to serve you with the highest standards of service and warmth.</p>
                </div>
                <div class="col-md-6 col-xs-12 pl-0 pr-0">
-                  <img src="https://www.dummyimage.com/760x500.png" alt="1" class="img-fluid"/>            
+                  <img src="img/Top-map_ok.png" alt="1" class="img-fluid"/>            
                </div>
             </div>
          </div>

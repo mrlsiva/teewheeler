@@ -189,16 +189,18 @@
          </div>
       </nav>
       <!--menu end-->
-      <section style="position:relative;background:url(https://www.dummyimage.com/1920x1080.png) top center no-repeat; background-size:cover; width:100%; height:550px; border-bottom:3px groove #000;">
+      <section class="bg-white " style="border-bottom:3px groove #000;">
+		<div class="order-online-header">
          <div class="container">
             <div class="row">
-               <div class="col-md-8 pt-150 pl-5 mpt-100">
+               <div class="col-md-8 pt-100 pb-50 pl-5 mpt-100">
                   <h2 class="font-weight-semibold oo-h2 ">Hungry ?</h2>
                   <h2 class="font-weight-bold mh-ft oo-h2 ">Order exclusively on your favourite delivery apps.</h2>
                </div>
             </div>
          </div>
-         </div>    
+         </div> 
+		</div>  
       </section>
       <section class="bg-white">
          <div class="container ptb-100 pt-50">
