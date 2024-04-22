@@ -73,11 +73,16 @@
     </nav>
     
   
-  <section class="bht-0 fe-bg" style=" ">
-         <div class="container pt-100 pt50">
+	  
+	   <section class="bht-0 fe-bg pt-150 pb-50" style=" ">
+         <div class="container pbt-100 ptb-50">
             <div class="row">
-               <div class="col-md-7 col-xs-12"></div>
-               <div class="col-md-5 col-xs-12 pt-100 pt0-100 fe-bg-pb75" align="center">
+               <div class="col-md-7 col-xs-12">
+					<div class="col fe-bgi">
+						<!--<img src="img/Kashmira_Reveals.png" alt="1" class="img-fluid" style="width: 100%; height: auto; display: block;" />-->
+					 </div>
+			   </div>
+               <div class="col-md-5 col-xs-12 pt-100 pt-50" align="center">
                   <h3 class="text-center mb-5 mh-ft clr-wht">Connect with us!</h3>
                   <form class="contact-form" action="#" method="post">
                      <div class="form-group mb-5">

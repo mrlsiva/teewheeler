@@ -192,6 +192,7 @@
       </nav>
       <!--menu end-->
       <section class="on-the-go-header" style="position:relative;  border-bottom:3px groove #000;">
+		 <div class="on-the-go-bg">
          <!---->
          <div class="container" style="padding-right:0px;">
             <div class="row">
@@ -199,11 +200,10 @@
                <div class="col-md-6 pl-0"></div>
             </div>
          </div> 
-         <div class="row">
+         <div class="row ">
             <div class="col-md-6 h-600"></div>
-            <div class="col-md-6">
-                                
-                  <div class="on-the-go-slider slick-slider">
+            <div class="col-md-6 pt-100">                                
+                  <div class="on-the-go-slider slick-slider ptb-50">
                      <div class="slide active">
                         <img class="d-block w-100" src="img/sliderx1.jpg" alt="First slide">
                      </div>
@@ -216,6 +216,7 @@
                   </div>  
             </div>
          </div>
+		 </div>
       </section>
       <!--<section class="bg-white">
          <div class="container ptb-100">

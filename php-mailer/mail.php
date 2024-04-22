@@ -15,9 +15,9 @@ if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['message']) )
 	
 	try{
 		// Please enter your email ID 	
-		$to_email = 'youremail_id.com';
+		$to_email = 'Connect@Teawheeler.co.in';
 		// Please enter your name		
-		$to_name ="your name";
+		$to_name ="Tea Wheeler";
 		// Please enter your Subject
 		$subject="Tea Wheeler - New Enquiry";
 		

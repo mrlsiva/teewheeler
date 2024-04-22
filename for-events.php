@@ -210,18 +210,20 @@
          </div>    
          
          </section>-->
-        <section class="event-header" >
-          <div class="container">
-          <div class="row align-items-center">
-              <div class="col-md-6 event-header-col-pad">
-                <h1 class="s3">For Events</h1>
-                <h1 style="font-weight: 600;">Contact us today</h1>
-              </div>
-              <div class="col-md-6">
-                <img src="img/coffee.png" alt="coffee" class="img-fluid">
-              </div>
-          </div>
-          </div>
+        <section class=" sandal-bg" >
+          <div class="event-header">
+			  <div class="container">
+				  <div class="row align-items-center">
+					  <div class="col-md-6 event-header-col-pad">
+						<h1 class="s3">For Events</h1>
+						<h1 style="font-weight: 600;">Contact us today</h1>
+					  </div>
+					  <div class="col-md-6">
+						<img src="img/coffee.png" alt="coffee" class="img-fluid">
+					  </div>
+				  </div>
+			  </div>
+		  </div>
       </section>
       <section class="sandal-bg">
          <div class="container pt-50 pb-50">
@@ -238,11 +240,15 @@
             </div>
          </div>
       </section>
-      <section class="bht-0 fe-bg" style=" ">
-         <div class="container pt-100 pt50">
+      <section class="bht-0 fe-bg pt-100 pt-75 " style=" ">
+         <div class="container pb-100 pb-50">
             <div class="row">
-               <div class="col-md-7 col-xs-12"></div>
-               <div class="col-md-5 col-xs-12 pt-100 pt0-100 fe-bg-pb75" align="center">
+               <div class="col-md-7 col-xs-12">
+					<div class="col fe-bgi">
+						<!--<img src="img/Kashmira_Reveals.png" alt="1" class="img-fluid" style="width: 100%; height: auto; display: block;" />-->
+					 </div>
+			   </div>
+               <div class="col-md-5 col-xs-12 pt-100 pt-50" align="center">
                   <h3 class="text-center mb-5 mh-ft clr-wht">Connect with us!</h3>
                   <form class="contact-form" action="#" method="post">
                      <div class="form-group mb-5">

@@ -369,6 +369,10 @@ a:hover {
 	background-repeat: no-repeat;	
 }
 
+.on-the-go-bg {
+	background-color: rgba(249, 160, 6, 0.8);
+}
+
 .bg-white { 
 	background-color: #ffffff;
 }
@@ -384,6 +388,11 @@ a:hover {
 
 .pt-150 {
 	padding-top: 150px;
+}
+
+.ptb-150 {
+	padding-top: 150px;
+	padding-bottom: 150px;
 }
 
 .ptb-25 {
@@ -421,6 +430,11 @@ a:hover {
 
 .ml-150 {
 	margin-left: 150px;
+}
+
+.mtb-50 {
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 .bt-rt {
@@ -679,10 +693,21 @@ a:hover {
 	padding-bottom: 0px;
 }
 
-.fe-bg {
+/* .fe-bg {
 	background: url(../img/event-form.png) top center no-repeat;
 	background-size: cover;
 	height: 800px;
+} */
+
+.fe-bg {
+	background-color: #DC7F22;
+}
+
+.fe-bgi {
+	background: url(../img/Kashmira_Reveals.png) center no-repeat;
+	background-size: cover;
+	height: 600px;
+	border-radius: 20px;
 }
 
 .pl-50 {
@@ -795,6 +820,10 @@ label.error {
 	color: #ff0000;
 	font-size: 14px !important;
 	line-height: 24px !important;
+}
+
+.fmenu a svg {
+    max-width: 18px;
 }
 
 
@@ -1063,6 +1092,13 @@ label.error {
 	.pt-75 {
 		padding-top: 75px;
 	}
+	
+	.pb-75 {
+		padding-bottom: 75px;
+	}
+	.pb-50 {
+		padding-bottom: 50px;
+	}
 
 	.mm55 {
 		height: auto !important;
@@ -1070,12 +1106,6 @@ label.error {
 
 	.fcmycsyle-bg {
 		margin: 5px;
-	}
-
-	.fe-bg {
-		background: url(../img/event-form.png) top right no-repeat;
-		background-size: cover;
-		height: auto;
 	}
 
 	.fe-bg-pb75 {
