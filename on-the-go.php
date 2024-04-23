@@ -85,6 +85,10 @@
             .h-600 {
                min-height: 500px;
             }
+            .v-center.start {
+               place-content: start;
+    align-items: end;
+            }
             .v-center {
                height: 100%;
     flex-direction: row;
@@ -96,6 +100,9 @@
             .v-center img {
                margin: 0 auto;
                max-height: 380px;
+             }
+             .pd-60 {
+               padding: 60px 80px;
              }
              .mt-100 {
                margin-top: 100px;
@@ -115,8 +122,8 @@ color: #fff;
               }
             </style>
          <div class="row mt-100">
-            <div class="col-md-6 on-the-go-header h-600 p-0 v-center">
-               <div>
+            <div class="col-md-6 on-the-go-header start h-600 p-0 v-center">
+               <div class="pd-60">
                   <h1 class="white-orange">On the go </h1> 
                <h1 class="white-bike">Bikes </h1>
                </div>
