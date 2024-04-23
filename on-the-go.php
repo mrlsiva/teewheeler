@@ -72,7 +72,7 @@
          </div>
       </nav>
       <!--menu end-->
-      <section class="on-the-go-header" style="position:relative;  border-bottom:3px groove #000;">
+      <section class=" " style="position:relative;  border-bottom:3px groove #000;">
 		 <div class="on-the-go-bg">
          <!---->
          <div class="container" style="padding-right:0px;">
@@ -81,19 +81,58 @@
                <div class="col-md-6 pl-0"></div>
             </div>
          </div> 
-         <div class="row ">
-            <div class="col-md-6 h-600 p-0"></div>
-            <div class="col-md-6 pt-100 p-0">                                
-                  <div class="on-the-go-slider slick-slider">
-                     <div class="slide active" style="background-image: url(img/sliderx1.jpg);">
-                        <img class="d-block" height="300px" src="img/sliderx1.jpg" alt="First slide">
+         <style>
+            .h-600 {
+               min-height: 500px;
+            }
+            .v-center {
+               height: 100%;
+    flex-direction: row;
+    box-sizing: border-box;
+    display: flex;
+    place-content: center;
+    align-items: center;
+            }
+            .v-center img {
+               margin: 0 auto;
+               max-height: 250px;
+             }
+             .mt-100 {
+               margin-top: 100px;
+             }
+             .white-orange, .white-bike {
+               padding: 0;
+    margin: 0;
+    line-height: 56px;
+    font-size: 48px;
+    font-weight: 700;
+             }
+             .white-orange {
+               color: #fbbf56;
+             }
+              .white-bike {
+color: #fff;
+              }
+            </style>
+         <div class="row mt-100">
+            <div class="col-md-6 on-the-go-header h-600 p-0 v-center">
+               <div>
+                  <h1 class="white-orange">On the go </h1> 
+               <h1 class="white-bike">Bikes </h1>
+               </div>
+            </div>
+            <div class="col-md-6 pt-100 p-0">   
+               <!-- ptb-50                              -->
+                  <div class="on-the-go-slider slick-slider ">
+                     <div class="slide v-center active" style="background-image: url(img/sliderx1-blur.jpg);">
+                        <img class="d-block" src="img/sliderx1.jpg" alt="First slide">
                      </div>
-                     <div class="slide ">
-                        <img class="d-block" height="300px" src="img/sliderx2.jpg" alt="Second slide">
+                     <div class="slide v-center" style="background-image: url(img/sliderx2-blur.jpg);">
+                        <img class="d-block" src="img/sliderx2.jpg" alt="Second slide">
                      </div>
-                     <div class="slide ">
-                        <img class="d-block" height="300px" src="img/sliderx3.jpg" alt="Third slide">
-                     </div>                    
+                     <div class="slide v-center"  style="background-image: url(img/sliderx3-blur.jpg);">
+                        <img class="d-block" src="img/sliderx3.jpg" alt="Third slide">
+                     </div>                   
                   </div>  
             </div>
          </div>
@@ -348,7 +387,7 @@
         slidesToShow: 1,
         infinite:false,
         slidesToScroll: 1, 
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 2000,
         dots: false,
         arrows: true,		
