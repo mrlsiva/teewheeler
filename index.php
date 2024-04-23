@@ -73,7 +73,8 @@
 
     <!--=============================== VIDEO AREA START =======================-->
     <section class="position-relative" id="video-section">
-    <video id="video" style="width:100%; background:#000; object-fit: cover; pointer-events: none;" autoplay muted loop controls="false" preload="auto"
+    <!-- object-fit: cover; -->
+    <video id="video" style="width:100%; background:#000; max-height:calc(100vh - 140px);  pointer-events: none;" autoplay muted loop controls="false" preload="auto"
             class="">
             <source
             src="img/header-video.mp4"
