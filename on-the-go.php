@@ -95,7 +95,7 @@
             }
             .v-center img {
                margin: 0 auto;
-               max-height: 250px;
+               max-height: 380px;
              }
              .mt-100 {
                margin-top: 100px;
@@ -385,7 +385,7 @@ color: #fff;
         var aq = $.noConflict(); 
         $(".slick-slider").slick({
         slidesToShow: 1,
-        infinite:false,
+        infinite:true,
         slidesToScroll: 1, 
         autoplay: true,
         autoplaySpeed: 2000,
